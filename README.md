@@ -21,13 +21,15 @@ Before running the script, ensure you have the following:
 
 ## Usage
 
-1. **Configure SMTP Settings**: Set up the SMTP server details, including host, port, email limits, sender email address, and password in the script.
+1. **Setup a Python Enviornment**: Set up a default Python enviornment (venv), Python version 3.12.2 works.
 
-2. **HTML Email Content**: Customize the HTML content of the email by editing the `mail.html` file.
+2. **Configure SMTP Settings**: Set up the SMTP server details, including host, port, email limits, sender email address, and password in the script.
 
-3. **Prepare CSV Files**: Ensure your CSV files (`sendto.csv` and `ouraccounts.csv`) have the password and email addresses in the correct columns.
+3. **HTML Email Content**: Customize the HTML content of the email by editing the `mail.html` file.
 
-4. **Run the Script**: Execute the script by running the `main()` function. This will start sending emails to the recipients listed in the `sendto.csv` file using the sender accounts listed in `ouraccounts.csv`.
+4. **Prepare CSV Files**: Ensure your CSV files (`sendto.csv` and `ouraccounts.csv`) have the password and email addresses in the correct columns.
+
+5. **Run the Script**: Execute the script by running the `main()` function. This will start sending emails to the recipients listed in the `sendto.csv` file using the sender accounts listed in `ouraccounts.csv`.
 
 ## Important Notes
 
